@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "CommonJS",
+		"lib": ["dom", "es6", "esnext"],
+		"moduleResolution": "node",
+		"outDir": "./dist",
+		"sourceMap": true,
+		"watch": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"paths": {
+			"utils/*": ["src/utils/*"]
+		}
+	},
+	"include": ["src", "node_modules/@types"],
+	"exclude": ["node_modules", "tsconfig.json"]
+}
